@@ -9,6 +9,7 @@ if [ ! -d "./trytond" ]; then
   git submodule update
 fi
 
+git fetch remote
 cp .hgignore .gitignore
 echo trytond/trytond/modules/ >> .gitignore
 echo sao/locale/*.json >> .gitignore
