@@ -1,0 +1,3 @@
+[submodule "tryton"]
+	path = tryton
+	url = https://github.com/teharris1/tryton.git
